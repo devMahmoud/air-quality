@@ -22,9 +22,9 @@
 
 ## Getting Started
 To have a local version of this project run this comman in your teminal<br/>
-    `git clone https://github.com/devMahmoud/air-quality.git`
+    `git clone https://github.com/devMahmoud/coronavirus-statistics.git`
 Navigate to project folder by this command<br/>
-    `cd air-quality`
+    `cd coronavirus-statistics`
     
 ### Prerequisites
 latest version of npm
