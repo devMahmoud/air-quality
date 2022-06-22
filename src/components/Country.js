@@ -1,28 +1,27 @@
-// import { useEffect } from 'react';
 import PropTypes from 'prop-types';
 
 const Country = (props) => {
-  const { countryName, confirmed } = props;
-
-  /* useEffect(() => {
-    dispatch(getCityData(cityName));
-  }, []);
-  */
+  const { countryName, confirmed, deaths } = props;
   return (
-    <div>
-      {countryName}
-      {confirmed}
+    <div className="country-container">
+      <div className="country-content">
+        <div className="country-name">
+          {countryName}
+        </div>
+        <div className="status">
+          {confirmed}
+          <br />
+          {deaths}
+        </div>
+      </div>
     </div>
   );
 };
 
 Country.propTypes = {
   confirmed: PropTypes.string.isRequired,
-  /* cityData: PropTypes.shape({
-    id: PropTypes.number.isRequired,
-  }).isRequired,
-  */
   countryName: PropTypes.string.isRequired,
+  deaths: PropTypes.string.isRequired,
 };
 
 export default Country;

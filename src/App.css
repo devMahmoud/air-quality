@@ -1,4 +1,33 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #eb4c8b;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.cities-list {
+  color: #fff;
+}
+
+.country-container {
+padding: 1rem;
+}
+
+.country-container:nth-child(even) {
+  background-color: #ce4277;
+}
+
+.country-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.country-name {
+  font-size: larger;
+  font-weight: 600;
 }
