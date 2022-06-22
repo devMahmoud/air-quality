@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
-import cityReducer from './cities/cities';
+import countryReducer from './countries/countries';
 
 const store = configureStore({
   reducer: {
-    city: cityReducer,
+    countries: countryReducer,
   },
   middleware: [thunk],
 });

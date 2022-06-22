@@ -1,9 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Air Quality
-"Air Quality" is a website for Books. It is a Single Page App (SPA) that allows users to:
+# Coronavirus Statistics
+"Coronavirus Statistics" is a website for Books. It is a Single Page App (SPA) that allows users to:
 
-* See the air quality for...
+* See the Coronavirus Statistics for...
 * Sort by...
 
 

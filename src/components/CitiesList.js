@@ -1,19 +1,20 @@
-import { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { getCityData } from '../redux/cities/cities';
-import City from './City';
+import { useSelector } from 'react-redux';
+import Country from './Country';
 
 const CitiesList = () => {
-  const cities = ['Paris', 'Beijing', 'Tokyo', 'Algiers', 'Accra', 'Tbilisi'];
-  const citiesArr = useSelector((state) => state.city);
-  const dispatch = useDispatch();
-  useEffect(() => {
-    cities.forEach((city) => dispatch(getCityData(city)));
-  }, []);
+  const countriesArr = useSelector((state) => state.countries);
   return (
     <div className="cities-list">
       {
-        citiesArr.map((city) => <City key={cities.indexOf(city)} cityObj={city} />)
+        countriesArr.map(
+          (country) => (
+            <Country
+              key={countriesArr.indexOf(country)}
+              countryName={country.Country_Region}
+              confirmed={country.Confirmed}
+            />
+          ),
+        )
       }
     </div>
   );
