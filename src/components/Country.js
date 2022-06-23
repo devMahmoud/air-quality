@@ -13,17 +13,19 @@ const Country = (props) => {
         <div className="status">
           { selectedView === 'confirmed'
            && (
-           <div>
+           <p>
              Confirmed Cases
+             <br />
              {confirmed}
-           </div>
+           </p>
            )}
           {selectedView === 'deaths'
             && (
-            <div>
+            <p>
               Deaths
+              <br />
               {deaths}
-            </div>
+            </p>
             )}
         </div>
       </div>

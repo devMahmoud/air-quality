@@ -25,6 +25,7 @@ padding: 1rem;
 .country-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .country-name {
@@ -39,4 +40,45 @@ padding: 1rem;
 
 .title {
   text-align: center;
+}
+
+.btn {
+  color: #fff;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  font-size: larger;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+#views {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: large;
+  font-weight: 500;
+}
+
+#views option {
+  color: #eb4c8b;
+  text-align: center;
+}
+
+.setting-btn {
+  font-size: x-large;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.details-item {
+  padding: 0 2rem;
 }
