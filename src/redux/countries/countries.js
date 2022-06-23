@@ -6,10 +6,11 @@ export const getCountryData = () => async (dispatch) => {
   try {
     const res = await getData();
     const { rawData } = await res.json();
-    const topTwenty = rawData.slice(0, 20);
+    const sample = rawData.slice(0, 30);
+    const filteredSample = sample.filter((country) => !country.Province_State);
     dispatch({
       type: GET_COUNTRY_DATA,
-      topTwenty,
+      filteredSample,
     });
   } catch (err) {
     console.log(err);
@@ -19,7 +20,7 @@ export const getCountryData = () => async (dispatch) => {
 export default function countryReducer(state = [], action = {}) {
   switch (action.type) {
     case GET_COUNTRY_DATA:
-      return action.topTwenty;
+      return action.filteredSample;
     default: return state;
   }
 }
