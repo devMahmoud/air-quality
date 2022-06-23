@@ -14,12 +14,12 @@ body {
   color: #fff;
 }
 
-.country-container {
-padding: 1rem;
+.country-wrapper:nth-child(even) {
+  background-color: #ce4277;
 }
 
-.country-container:nth-child(even) {
-  background-color: #ce4277;
+.country-container {
+padding: 1rem;
 }
 
 .country-content {
@@ -30,4 +30,13 @@ padding: 1rem;
 .country-name {
   font-size: larger;
   font-weight: 600;
+}
+
+.details-wrapper {
+  padding: 1rem;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
 }

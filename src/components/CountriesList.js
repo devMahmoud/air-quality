@@ -9,13 +9,15 @@ const CountriesList = () => {
       {
         countriesArr.map(
           (country) => (
-            <Link className="link" to={`/Country/${country.Country_Region}`} key={countriesArr.indexOf(country)}>
-              <Country
-                countryName={country.Country_Region}
-                confirmed={country.Confirmed}
-                deaths={country.Deaths}
-              />
-            </Link>
+            <div className="country-wrapper" key={countriesArr.indexOf(country)}>
+              <Link className="link" to={`/Country/${country.Country_Region}`}>
+                <Country
+                  countryName={country.Country_Region}
+                  confirmed={country.Confirmed}
+                  deaths={country.Deaths}
+                />
+              </Link>
+            </div>
           ),
         )
       }
