@@ -13,7 +13,7 @@ export const getCountryData = () => async (dispatch) => {
       filteredSample,
     });
   } catch (err) {
-    console.log(err);
+    throw new Error(err);
   }
 };
 
