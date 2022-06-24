@@ -3,7 +3,6 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Country from '../components/Country';
 import micIcon from '../img/mic-20.png';
-// import backIcon from '../img/back.png';
 
 const HomePage = () => {
   const countriesArr = useSelector((state) => state.countries);

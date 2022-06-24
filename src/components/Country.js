@@ -13,7 +13,7 @@ const Country = (props) => {
         <div className="status">
           { selectedView === 'confirmed'
            && (
-           <p>
+           <p className="confirmed">
              Confirmed Cases
              <br />
              {confirmed}
@@ -21,7 +21,7 @@ const Country = (props) => {
            )}
           {selectedView === 'deaths'
             && (
-            <p>
+            <p className="deaths">
               Deaths
               <br />
               {deaths}
