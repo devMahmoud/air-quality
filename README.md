@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Air Quality
-"Air Quality" is a website for Books. It is a Single Page App (SPA) that allows users to:
+# Coronavirus Statistics
+"Coronavirus Statistics" is a website for displaying data about Coronavirus. It is a Single Page App (SPA) that allows users to:
 
-* See the air quality for...
-* Sort by...
+* See the Coronavirus Statistics for a list of countries
+* Change the view to display the confirmed cases or death cases
 
 
 ## Built With
@@ -12,7 +12,7 @@
 - Major languages<br/>
     HTML, CSS, JavaScript
 - Frameworks<br/>
-    React
+    React, Redux
 - Technologies used
 
 ## Live Demo
@@ -22,9 +22,9 @@
 
 ## Getting Started
 To have a local version of this project run this comman in your teminal<br/>
-    `git clone https://github.com/devMahmoud/air-quality.git`
+    `git clone https://github.com/devMahmoud/coronavirus-statistics.git`
 Navigate to project folder by this command<br/>
-    `cd air-quality`
+    `cd coronavirus-statistics`
     
 ### Prerequisites
 latest version of npm
@@ -57,9 +57,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
 ## 📝 License
 
