@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-[Coming soon]()
+[Live Link](https://legendary-frangollo-2dae30.netlify.app/)
 
 
 ## Getting Started
